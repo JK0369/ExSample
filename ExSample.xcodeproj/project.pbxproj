@@ -11,6 +11,7 @@
 		C629338F28519A540035704C /* ExSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C629338428519A540035704C /* ExSample.framework */; };
 		C629339428519A540035704C /* ExSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629339328519A540035704C /* ExSampleTests.swift */; };
 		C629339528519A540035704C /* ExSample.h in Headers */ = {isa = PBXBuildFile; fileRef = C629338728519A540035704C /* ExSample.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C629339F28519A8C0035704C /* MyFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = C629339E28519A8C0035704C /* MyFunction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		C629338828519A540035704C /* ExSample.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ExSample.docc; sourceTree = "<group>"; };
 		C629338E28519A540035704C /* ExSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C629339328519A540035704C /* ExSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExSampleTests.swift; sourceTree = "<group>"; };
+		C629339E28519A8C0035704C /* MyFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFunction.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				C629338728519A540035704C /* ExSample.h */,
 				C629338828519A540035704C /* ExSample.docc */,
+				C629339E28519A8C0035704C /* MyFunction.swift */,
 			);
 			path = ExSample;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C629338928519A540035704C /* ExSample.docc in Sources */,
+				C629339F28519A8C0035704C /* MyFunction.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +400,7 @@
 		C629339C28519A540035704C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V99UMBT63A;
@@ -412,6 +417,7 @@
 		C629339D28519A540035704C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V99UMBT63A;
